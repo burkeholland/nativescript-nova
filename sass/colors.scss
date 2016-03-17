@@ -1,0 +1,27 @@
+$color-light: #ffffff;
+$color-accent: #FF404B;
+$color-dark: #243044;
+
+.background-color-light {
+    background-color: $color-light;
+}
+
+.background-color-accent {
+    background-color: $color-accent;
+}
+
+.background-color-dark {
+    background-color: $color-dark;
+}
+
+.color-light {
+    color: black;
+}
+
+.color-accent {
+    color: $color-accent;
+}
+
+.color-dark {
+    color: $color-dark;
+}

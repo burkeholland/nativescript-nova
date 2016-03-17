@@ -1,0 +1,27 @@
+@import 'action-bar';
+@import 'text';
+@import 'button';
+@import 'list-view';
+
+Page {
+    color: #000;
+}
+
+.fa {
+    font-family: 'FontAwesome', FontAwesome;
+}
+
+.padding {
+    padding: 10;
+}
+
+.left {
+    horizontal-align: left;
+    text-align: left;
+}
+
+.center {
+    horizontal-align: center;
+}
+
+

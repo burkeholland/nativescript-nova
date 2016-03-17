@@ -1,0 +1,12 @@
+<grid-layout class="drawer-content">
+  <stack-layout class="drawer-menu fa">
+    <label text="&#xf068;  Action Bars" tap="navigate" rel="action-bar" class="fa" />
+    <label text="&#xf031;  Text" tap="navigate" rel="text" />
+    <label text="&#xf0c8;  Buttons" tap="navigate" rel="buttons" />
+    <label text="&#xf00b;  ListViews" />
+    <label text="       Simple ListView" tap="navigate" rel="list-views/simple-list-view" />
+    <label text="       ListView With Avatars" tap="navigate" rel="list-views/list-view-avatar" />
+    <label text="       ListView With Thumbnails" tap="navigate" rel="list-views/list-view-thumbnail" />
+    <label text="       Inset ListView" tap="navigate" rel="list-views/list-view-inset" />
+  </stack-layout>
+</grid-layout>

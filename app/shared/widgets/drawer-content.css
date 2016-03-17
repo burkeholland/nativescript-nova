@@ -1,0 +1,13 @@
+.drawer-content {
+    padding-top: 20;
+    background-color: #243044;
+    color: white;
+}
+
+.drawer-menu label {
+    margin: 10 10 10 20;
+}
+
+.fa {
+    font-family: FontAwesome;
+}

@@ -1,0 +1,58 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <action-bar title="NativeScript Bootstrap : Buttons" class="action-bar-accent">
+        <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+        <action-bar.actionItems>
+            <ios>
+                <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+            </ios>
+        </action-bar.actionItems>
+    </action-bar>        
+  </page.actionBar>
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <stack-layout class="padding">
+        <StackLayout class="p">
+            <Button class="button button-light" text="Light Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-accent" text="Accent Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-dark" text="Dark Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-light" text="Light Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-accent" text="Accent Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-dark" text="Dark Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-light" text="Light Button Large" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-accent" text="Accent Button Large" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-dark" text="Dark Button Large" />
+        </StackLayout>
+      </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

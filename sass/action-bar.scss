@@ -1,0 +1,20 @@
+@import 'colors';
+
+.action-bar-light {
+    background-color: $color-light;
+    color: $color-accent;
+}
+
+navigation-button {
+    color: $color-accent;
+}
+
+.action-bar-accent {
+    background-color: $color-accent;
+    color: white;
+}
+
+.action-bar-dark {
+    background-color: $color-dark;
+    color: white;
+}

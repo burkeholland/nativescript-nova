@@ -1,0 +1,61 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:sb="nativescript-statusbar" loaded="pageLoaded">
+  <Page.actionBar>
+    <ActionBar title="NativeScript Bootstrap" class="action-bar-accent"/>
+  </Page.actionBar>
+  <sb:StatusBar ios:barStyle="light" />
+  <ScrollView>
+    <StackLayout class="padding">
+        <Label class="h1" text="I'm an H1!"></Label>
+        <Label class="h2" text="I'm an H2!"></Label>
+        <Label class="h3" text="I'm an H3!"></Label>
+        <Label class="h4" text="I'm an H4!"></Label>
+        <Label class="h5" text="I'm an H5!"></Label>
+        <Label class="h6" text="I'm an H6!"></Label>
+        <Label class="p" text="I'm a paragraph"></Label>
+        <StackLayout class="p">
+            <Button class="button button-light" text="Light Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-accent" text="Accent Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-dark" text="Dark Button" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-light" text="Light Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-accent" text="Accent Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-small button-dark" text="Dark Button Small" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-light" text="Light Button Large" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-accent" text="Accent Button Large" />
+        </StackLayout>
+        <StackLayout class="p">
+            <Button class="button button-large button-dark" text="Dark Button Large" />
+        </StackLayout>
+        <StackLayout class="card">
+            <Label class="p" text="I am a card" />
+        </StackLayout>
+    </StackLayout>    
+  </ScrollView>
+  <!--<TabView tabsBackgroundColor="#337AF9" class="tabview-light" selectedColor="#ffffff">
+   <TabView.items>
+     <TabViewItem title="&#xf015;" >
+       <TabViewItem.view>
+          <Label text="Label in &#xf015;" />
+       </TabViewItem.view>
+     </TabViewItem>
+     <TabViewItem title="Tab 2">
+       <TabViewItem.view>
+          <Label text="Label in Tab2" />
+       </TabViewItem.view>
+     </TabViewItem>
+   </TabView.items>
+ </TabView>-->
+</Page>

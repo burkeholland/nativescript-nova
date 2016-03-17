@@ -1,0 +1,42 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <action-bar title="{N}ova : ListView Thumbnails" class="action-bar-accent">
+        <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+        <action-bar.actionItems>
+            <ios>
+                <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+            </ios>
+        </action-bar.actionItems>
+    </action-bar>        
+  </page.actionBar>
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <grid-layout columns="*">
+        <list-view items="{{ fakeListItems }}" class="listview">
+            <list-view.itemTemplate>
+                <grid-layout columns="50, *" rows="*" class="item item-thumbnail">
+                    <image src="{{ '~/images/' + img }}" col="0" />
+                    <stack-layout col="1">
+                        <label text="{{ artist }}" class="h2" col="1"/>
+                        <label text="{{ title }}" class="p" col="1"/>
+                    </stack-layout>
+                </grid-layout>
+            </list-view.itemTemplate>
+        </list-view>
+      </grid-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

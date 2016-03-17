@@ -1,0 +1,44 @@
+@import 'colors';
+
+.button {
+    padding: 0 12 0 10;
+    min-width: 52;
+    min-height: 47;
+    border-radius: 2;
+    margin: 0 10 0 10;
+}
+
+.button-full {
+    padding: 0;
+}
+
+.button-small {
+    padding: 2 4 1 4;
+    min-width: 28;
+    min-height: 30;
+    font-size: 12;
+}
+
+.button-large {
+    padding: 0 16 0 16;
+    min-width: 68;
+    min-height: 59;
+    font-size: 20;
+}
+
+.button-light {
+    background-color: $color-light;
+    color: $color-accent;
+    border-color: #b2b2b2;
+    border-width: 1;
+}
+
+.button-accent {
+    background-color: $color-accent;
+    color: white;
+}
+
+.button-dark {
+    background-color: $color-dark;
+    color: white;
+}
