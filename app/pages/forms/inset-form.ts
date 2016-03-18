@@ -1,4 +1,4 @@
-import { BasePage } from '../shared/BasePage';
+import { BasePage } from '../../shared/BasePage';
 
 class ActionBarPage extends BasePage {
     mainContentLoaded() {

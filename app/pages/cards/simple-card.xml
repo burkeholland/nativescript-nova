@@ -1,6 +1,7 @@
 <page xmlns="http://schemas.nativescript.org/tns.xsd"                
       xmlns:sb="nativescript-statusbar" 
       xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:card="nativescript-cardview"
       xmlns:widgets="shared/widgets"
       loaded="loaded">
   <page.actionBar>
@@ -8,22 +9,14 @@
   </page.actionBar>
   <sb:status-bar ios:barStyle="light" />
   
-  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+  <drawer:rad-side-drawer id="drawer">
     <drawer:rad-side-drawer.mainContent>
 
-      <!-- Home page contents -->
-      
-      
-        <stack-layout class="inset">      
-            <list-view items="{{ fakeListItems }}" class="listview">
-                <list-view.itemTemplate>
-                    <stack-layout class="item" col="0" class="item">
-                        <label text="{{ artist + ': ' + title }}" col="1"/>
-                    </stack-layout>
-                </list-view.itemTemplate>
-            </list-view>
+      <stack-layout><!-- Home page contents -->
+        <stack-layout class="card">
+            <label class="card" />
         </stack-layout>
-      
+      </stack-layout>
 
     </drawer:rad-side-drawer.mainContent>
     <drawer:rad-side-drawer.drawerContent>

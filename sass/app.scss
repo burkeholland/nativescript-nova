@@ -2,9 +2,15 @@
 @import 'text';
 @import 'button';
 @import 'list-view';
+@import 'card';
+@import 'forms';
 
-Page {
+page {
     color: #000;
+}
+
+textfield {
+    font-size: 14;
 }
 
 .fa {
@@ -22,6 +28,11 @@ Page {
 
 .center {
     horizontal-align: center;
+}
+
+.hr {
+    height: 1;
+    background-color: #CDCDCD;
 }
 
 

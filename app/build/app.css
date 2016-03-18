@@ -145,8 +145,29 @@ navigation-button {
 .item-avatar stacklayout, .item-thumbnail stacklayout {
   padding-left: 16; }
 
-Page {
+.form {
+  margin-bottom: 20; }
+
+.form .form-item {
+  padding: 6 0 5 16; }
+
+.form .input {
+  padding-top: 2; }
+
+.form .input-label {
+  font-size: 16;
+  padding: 4 0 0 0; }
+
+.form-inset {
+  margin: 10;
+  border-width: 1;
+  border-color: #DDDDDD; }
+
+page {
   color: #000; }
+
+textfield {
+  font-size: 14; }
 
 .fa {
   font-family: 'FontAwesome', FontAwesome; }
@@ -160,3 +181,7 @@ Page {
 
 .center {
   horizontal-align: center; }
+
+.hr {
+  height: 1;
+  background-color: #CDCDCD; }

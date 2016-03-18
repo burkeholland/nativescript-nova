@@ -21,13 +21,8 @@ let viewModel = new Observable({
 });
 
 class ListViewBase extends BasePage {
-    mainContentLoaded(args) {
-      
-    }
-    
-    loaded(args: EventData) {
-        let page = <Page>args.object;
-        page.bindingContext = viewModel;
+    mainContentLoaded(args: EventData) {
+      args.object.bindingContext = viewModel;
     }
 }
 

@@ -4,15 +4,9 @@
       xmlns:widgets="shared/widgets"
       loaded="loaded">
   <page.actionBar>
-    <action-bar title="{N}ova : Buttons" class="{{ 'action-bar-' + selectedStyle }}">
-        <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
-        <action-bar.actionItems>
-            <ios>
-                <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
-            </ios>
-        </action-bar.actionItems>
-    </action-bar>        
+    <widgets:action-bar-common />
   </page.actionBar>
+  
   <sb:status-bar ios:barStyle="light" />
   
   <drawer:rad-side-drawer id="drawer">

@@ -24,10 +24,7 @@ var ListViewBase = (function (_super) {
         _super.apply(this, arguments);
     }
     ListViewBase.prototype.mainContentLoaded = function (args) {
-    };
-    ListViewBase.prototype.loaded = function (args) {
-        var page = args.object;
-        page.bindingContext = viewModel;
+        args.object.bindingContext = viewModel;
     };
     return ListViewBase;
 }(BasePage_1.BasePage));

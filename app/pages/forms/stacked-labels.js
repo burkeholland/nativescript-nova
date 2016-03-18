@@ -1,5 +1,5 @@
 "use strict";
-var BasePage_1 = require('../shared/BasePage');
+var BasePage_1 = require('../../shared/BasePage');
 var ActionBarPage = (function (_super) {
     __extends(ActionBarPage, _super);
     function ActionBarPage() {
@@ -10,4 +10,4 @@ var ActionBarPage = (function (_super) {
     return ActionBarPage;
 }(BasePage_1.BasePage));
 module.exports = new ActionBarPage();
-//# sourceMappingURL=action-bar.js.map
+//# sourceMappingURL=stacked-labels.js.map
