@@ -12,15 +12,17 @@
   <drawer:rad-side-drawer id="drawer">
     <drawer:rad-side-drawer.mainContent>
 
-      <!-- Home page contents -->
-      <stack-layout class="padding">
-        <label text="ActionBars can be styled with one of 3 styles, action-bar-light, action-bar-accent, action-bar-default" textWrap="true" />
+      <stack-layout>
+        <stack-layout class="padding">
+            <label text="ActionBars can be styled with one of 3 styles, action-bar-light, action-bar-accent, action-bar-default" textWrap="true" />
+        </stack-layout>
+        
         <grid-layout columns="*, *, *" rows="auto" class="padding">
-            <button class="button button-light" text="Light" tap="changeActionBarStyle" col="0" rel="light" />
-            <button class="button button-accent" text="Accent" tap="changeActionBarStyle" col="1" rel="accent" />
-            <button class="button button-dark" text="Dark" tap="changeActionBarStyle" col="2" rel="dark" />
+                <button class="button button-light" text="Light" tap="changeActionBarStyle" col="0" rel="light" />
+                <button class="button button-accent" text="Accent" tap="changeActionBarStyle" col="1" rel="accent" />
+                <button class="button button-dark" text="Dark" tap="changeActionBarStyle" col="2" rel="dark" />
         </grid-layout>
-      </stack-layout>
+    </stack-layout>
 
     </drawer:rad-side-drawer.mainContent>
     <drawer:rad-side-drawer.drawerContent>

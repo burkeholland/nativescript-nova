@@ -14,7 +14,7 @@
       <!-- Home page contents -->
       
       
-        <stack-layout class="inset">      
+        <stack-layout class="listview-inset">      
             <list-view items="{{ fakeListItems }}" class="listview">
                 <list-view.itemTemplate>
                     <stack-layout class="item" col="0" class="item">
