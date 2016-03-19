@@ -36,7 +36,9 @@
                 
         </stack-layout>
                
-        <button text="Submit" class="button button-accent" />
+        <stack-layout class="padding">
+            <button text="Submit" class="button button-accent" />
+        </stack-layout>
         
     </stack-layout>    
 

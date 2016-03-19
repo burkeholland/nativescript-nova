@@ -19,8 +19,7 @@
 .button {
   padding: 10 12 10 10;
   min-width: 52;
-  border-radius: 2;
-  margin: 0 16 0 16; }
+  border-radius: 2; }
 
 .button-full {
   padding: 0; }

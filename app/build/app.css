@@ -80,8 +80,7 @@ navigation-button {
 .button {
   padding: 10 12 10 10;
   min-width: 52;
-  border-radius: 2;
-  margin: 0 16 0 16; }
+  border-radius: 2; }
 
 .button-full {
   padding: 0; }
@@ -114,27 +113,24 @@ navigation-button {
 
 .listview {
   color: black; }
+  .listview .item {
+    padding: 10 10 10 10;
+    font-size: 16;
+    color: #444; }
+    .listview .item .h2 {
+      margin: 0;
+      margin: 0;
+      font-size: 20; }
+    .listview .item .p {
+      font-size: 14;
+      color: #666;
+      margin: 0; }
 
 .listview-inset {
   margin: 10;
   border-width: 1;
   border-color: #DDDDDD;
   border-radius: 10; }
-
-.listview .item {
-  padding: 10 10 10 10;
-  font-size: 16;
-  color: #444; }
-
-.listview .item .h2 {
-  margin: 0;
-  margin: 0;
-  font-size: 20; }
-
-.listview .item .p {
-  font-size: 14;
-  color: #666;
-  margin: 0; }
 
 .item-avatar image {
   border-radius: 25;
@@ -153,7 +149,7 @@ navigation-button {
   padding: 0; }
 
 .form .form-item {
-  padding: 10 16 10 16; }
+  padding: 10 26 10 16; }
 
 .form .input {
   padding-top: 2; }
@@ -173,8 +169,29 @@ navigation-button {
   border-width: 1;
   border-color: #DDDDDD; }
 
-page {
-  color: #000; }
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.switch-accent {
+  background-color: #FF404B; }
+
+.switch-dark {
+  background-color: #243044; }
 
 textfield {
   font-size: 14; }
