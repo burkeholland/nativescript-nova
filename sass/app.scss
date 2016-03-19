@@ -5,6 +5,7 @@
 @import 'card';
 @import 'forms';
 @import 'switch';
+@import 'slider';
 
 textfield {
     font-size: 14;
@@ -12,6 +13,11 @@ textfield {
 
 .fa {
     font-family: 'FontAwesome', FontAwesome;
+}
+
+.fa-large {
+    font-family: 'FontAwesome', FontAwesome;
+    font-size: 26;
 }
 
 .padding {
@@ -23,13 +29,24 @@ textfield {
     text-align: left;
 }
 
+.right {
+    text-align: right;
+    horizontal-align: right;
+}
+
 .center {
     horizontal-align: center;
+    text-align: center;
 }
 
 .hr {
     height: 1;
     background-color: #CDCDCD;
+}
+
+.debug {
+    border-width: 1;
+    border-color: red;
 }
 
 

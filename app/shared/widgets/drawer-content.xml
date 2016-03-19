@@ -16,7 +16,8 @@
             <label text="       Stacked Labels" tap="navigate" rel="forms/stacked-labels" title="Stacked Labels" />
             <label text="       Inset Form" tap="navigate" rel="forms/inset-form" title="Inset Form" />
             <label text="       Inset Input" tap="navigate" rel="forms/form-input-inset" title="Inset Inputs" />
-            <label text="&#xf205;  Switches" tap="navigate" rel="switch" title="Switch" />
+            <label text="&#xf205; Switches" tap="navigate" rel="switch" title="Switches" />
+            <label text="&#xf1de;  Sliders" tap="navigate" rel="slider" title="Sliders" />
         </stack-layout>
     </grid-layout>
 </scroll-view>

@@ -143,26 +143,23 @@ navigation-button {
 .form {
   margin: 0 0 20 0;
   padding: 0; }
-
-.form .button {
-  margin: 0 0 0 10;
-  padding: 0; }
-
-.form .form-item {
-  padding: 10 26 10 16; }
-
-.form .input {
-  padding-top: 2; }
-
-.form .input-inset {
-  background-color: #EEEEEE;
-  border-radius: 2;
-  padding: 8; }
-
-.form .input-label {
-  font-size: 18;
-  padding: 4 0 5 0;
-  color: #444; }
+  .form .button {
+    margin: 0 0 0 10;
+    padding: 0; }
+  .form switch {
+    margin-right: 16; }
+  .form .form-item {
+    padding: 10 16 10 16; }
+  .form .input {
+    padding-top: 2; }
+  .form .input-inset {
+    background-color: #EEEEEE;
+    border-radius: 2;
+    padding: 8; }
+  .form .input-label {
+    font-size: 18;
+    padding: 4 0 5 0;
+    color: #444; }
 
 .form-inset {
   margin: 10;
@@ -193,11 +190,42 @@ navigation-button {
 .switch-dark {
   background-color: #243044; }
 
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.slider-light {
+  background-color: #ffffff; }
+
+.slider-accent {
+  background-color: #FF404B; }
+
+.slider-dark {
+  background-color: #243044; }
+
 textfield {
   font-size: 14; }
 
 .fa {
   font-family: 'FontAwesome', FontAwesome; }
+
+.fa-large {
+  font-family: 'FontAwesome', FontAwesome;
+  font-size: 26; }
 
 .padding {
   padding: 10; }
@@ -206,9 +234,18 @@ textfield {
   horizontal-align: left;
   text-align: left; }
 
+.right {
+  text-align: right;
+  horizontal-align: right; }
+
 .center {
-  horizontal-align: center; }
+  horizontal-align: center;
+  text-align: center; }
 
 .hr {
   height: 1;
   background-color: #CDCDCD; }
+
+.debug {
+  border-width: 1;
+  border-color: red; }

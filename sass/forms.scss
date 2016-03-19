@@ -1,32 +1,36 @@
 .form {
     margin: 0 0 20 0;
     padding: 0;
-}
-
-.form .button {
-    margin: 0 0 0 10;
-    padding: 0;
-}
-
-.form .form-item {
-    padding: 10 26 10 16;
-}
-
-.form .input {
-    padding-top: 2;
-}
-
-.form .input-inset {
-    background-color: #EEEEEE;
-    border-radius: 2;
-    padding: 8;
-}
-
-.form .input-label {
-    font-size: 18;
-    padding: 4 0 5 0;
-    color: #444;
-}
+    
+    .button {
+        margin: 0 0 0 10;
+        padding: 0;
+    }
+    
+    switch {
+        margin-right: 16;
+    }
+    
+    .form-item {
+       padding: 10 16 10 16;
+    }
+    
+    .input {
+       padding-top: 2;
+    }
+    
+    .input-inset {
+        background-color: #EEEEEE;
+        border-radius: 2;
+        padding: 8;
+    }
+    
+    .input-label {
+       font-size: 18;
+        padding: 4 0 5 0;
+        color: #444;
+    }
+} 
 
 .form-inset {
     margin: 10;
