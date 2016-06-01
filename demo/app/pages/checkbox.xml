@@ -1,0 +1,39 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+    <drawer:rad-side-drawer.mainContent>
+    
+<scroll-view>
+    <stack-layout>
+        <stack-layout class="form">
+            <Repeater items="{{ checkBoxItems }}">
+                <Repeater.itemTemplate>
+                    <stack-layout>
+                        <grid-layout columns="*, 40" rows="auto" class="form-item">
+                            <label text="{{ text }}" col="0" class="input-label" />
+                            <label tap="{{ toggle }}" text="{{ checked ? '&#xf14a;' : '&#xf096;' }}" col="1" class="{{ 'checkbox checkbox-' + text }}" />
+                        </grid-layout>
+                        <stack-layout class="hr" />
+                    </stack-layout>
+                </Repeater.itemTemplate>
+            </Repeater>
+        </stack-layout>
+    </stack-layout>
+   </scroll-view>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

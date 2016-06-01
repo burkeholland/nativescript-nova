@@ -6,13 +6,15 @@
 @import 'forms';
 @import 'switch';
 @import 'slider';
+@import 'segmented-bar';
+@import 'checkbox';
 
 textfield {
     font-size: 14;
 }
 
 .fa {
-    font-family: 'FontAwesome', FontAwesome;
+    font-family: 'FontAwesome', fontawesome-webfont;
 }
 
 .fa-large {
@@ -22,6 +24,11 @@ textfield {
 
 .padding {
     padding: 10;
+}
+
+.edges {
+    margin-left: 10;
+    margin-right: 10;
 }
 
 .left {
@@ -48,5 +55,3 @@ textfield {
     border-width: 1;
     border-color: red;
 }
-
-

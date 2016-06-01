@@ -1,0 +1,32 @@
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.action-bar-light {
+  background-color: #ffffff;
+  color: #FF404B; }
+
+navigation-button {
+  color: #FF404B; }
+
+.action-bar-accent {
+  background-color: #FF404B;
+  color: white; }
+
+.action-bar-dark {
+  background-color: #243044;
+  color: white; }

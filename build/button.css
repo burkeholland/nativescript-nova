@@ -1,0 +1,60 @@
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.button {
+  padding: 10 12 10 10;
+  min-width: 52;
+  border-radius: 2; }
+
+.button-full {
+  padding: 0; }
+
+.button-small {
+  padding: 2 4 1 4;
+  min-width: 28;
+  min-height: 30;
+  font-size: 12; }
+
+.button-large {
+  padding: 0 16 0 16;
+  min-width: 68;
+  min-height: 59;
+  font-size: 20; }
+
+.button-light {
+  background-color: #ffffff;
+  color: #FF404B;
+  border-color: #b2b2b2;
+  border-width: 1; }
+
+.button-accent {
+  background-color: #FF404B;
+  color: #ffffff; }
+  .button-accent .button-outline {
+    background-color: #ffffff;
+    color: #FF404B;
+    border-color: #FF404B;
+    border-width: 1; }
+
+.button-dark {
+  background-color: #243044;
+  color: #ffffff; }
+  .button-dark .button-outline {
+    color: #243044;
+    border-color: #243044;
+    border-width: 1; }

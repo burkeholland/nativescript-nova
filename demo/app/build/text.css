@@ -1,0 +1,27 @@
+.h1 {
+  font-size: 36;
+  margin-bottom: 10; }
+
+.h2 {
+  font-size: 30;
+  margin: 10 0 10 0; }
+
+.h3 {
+  font-size: 24;
+  margin: 10 0 10 0; }
+
+.h4 {
+  font-size: 18;
+  margin: 10 0 10 0; }
+
+.h5 {
+  font-size: 14;
+  margin: 10 0 10 0; }
+
+.h6 {
+  font-size: 12;
+  margin: 10 0 10 0; }
+
+.p {
+  font-size: 14;
+  margin: 0 0 10 0; }

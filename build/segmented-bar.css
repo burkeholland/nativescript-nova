@@ -1,0 +1,28 @@
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.segmented-bar {
+  height: 50; }
+  .segmented-bar .segmnted-bar-light {
+    background-color: #ffffff; }
+  .segmented-bar .segmented-bar-accent {
+    background-color: #FF404B;
+    color: #ffffff; }
+  .segmented-bar .segmented-bar-dark {
+    background-color: #243044;
+    color: #ffffff; }

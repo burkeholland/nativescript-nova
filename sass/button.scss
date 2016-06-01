@@ -33,10 +33,24 @@
 
 .button-accent {
     background-color: $color-accent;
-    color: white;
+    color: $color-light;
+    border-color: $color-accent;
+    border-width: 1;
+    
+    .button-outline {
+        background-color: $color-light;
+        color: $color-accent;
+
+    }
 }
 
 .button-dark {
     background-color: $color-dark;
-    color: white;
+    color: $color-light;
+    
+    .button-outline {
+        color: $color-dark;
+        border-color: $color-dark;
+        border-width: 1;
+    }
 }

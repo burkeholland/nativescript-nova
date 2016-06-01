@@ -1,0 +1,15 @@
+@import 'colors';
+
+.checkbox {
+    font-family: 'FontAwesome', fontawesome-webfont;
+    font-size: 35;
+    color: #4CD964;
+}
+
+.checkbox-accent {
+    color: $color-accent; 
+}
+
+.checkbox-dark {
+    color: $color-dark;
+}

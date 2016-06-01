@@ -1,22 +1,30 @@
 {
-	"nativescript": {
-		"id": "org.nativescript.nativescriptnova",
-		"tns-android": {
-			"version": "1.7.0"
-		},
-		"tns-ios": {
-			"version": "1.7.0"
-		}
-	},
-	"dependencies": {
-		"nativescript-statusbar": "^1.0.0",
-		"nativescript-telerik-ui": "^0.2.4",
-		"tns-core-modules": "1.7.0"
-	},
-	"devDependencies": {
-		"gulp": "^3.9.1",
-		"gulp-sass": "^2.2.0",
-		"nativescript-dev-typescript": "^0.3.1",
-		"typescript": "^1.8.7"
-	}
+  "name": "nativescript-nova",
+  "version": "0.5.0",
+  "description": "A simple, extendible and gorgeous theme for NativeScript",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burkeholland/nativescript-nova.git"
+  },
+  "keywords": [
+    "nativescript",
+    "ios",
+    "android"
+  ],
+  "author": "Burke Holland <burkeholland@gmail.com> (http://a.shinynew.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burkeholland/nativescript-nova/issues"
+  },
+  "homepage": "https://github.com/burkeholland/nativescript-nova#readme",
+  "devDependencies": {
+    "gulp-copy": "0.0.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "node-sass": "^3.4.2"
+  }
 }

@@ -1,0 +1,37 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+    <stack-layout class="form">
+        <stack-layout class="form-item">
+            <label text="Standard Progress" />
+            <progress value="25" />
+        </stack-layout>
+        <stack-layout class="form-item">
+            <label text="Accent Progress" />
+            <progress value="50" class="color-accent" />
+        </stack-layout>
+        <stack-layout class="form-item">
+            <label text="Dark Progress" />
+            <progress value="75" class="color-dark" />
+        </stack-layout>    
+
+    </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
