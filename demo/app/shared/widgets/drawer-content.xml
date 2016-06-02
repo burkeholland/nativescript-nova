@@ -25,6 +25,7 @@
             <label text="&#xf146;  Segmented Bar" tap="navigate" rel="segmented-bar" title="Segmented Bar" />
             <label text="&#xf14a;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
             <label text="&#xf111;  Radio Buttons" tap="navigate" rel="radiobuttons" title="Radio Buttons" />
+            <label text="&#xf110;  Activity Indicators" tap="navigate" rel="activity-indicators" title="Activity Indicators" />
         </stack-layout>
     </scroll-view>
 </grid-layout>

@@ -285,12 +285,6 @@ navigation-button {
   font-size: 35;
   color: #4CD964; }
 
-.checkbox-accent {
-  color: #FF404B; }
-
-.checkbox-dark {
-  color: #243044; }
-
 .background-color-light {
   background-color: #ffffff; }
 
@@ -314,10 +308,31 @@ navigation-button {
   font-size: 35;
   color: #4CD964; }
 
-.radiobutton-accent {
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
   color: #FF404B; }
 
-.radiobutton-dark {
+.color-dark {
+  color: #243044; }
+
+.activity-indicator-light {
+  color: #4CD964; }
+
+.checkbox-accent {
+  color: #FF404B; }
+
+.checkbox-dark {
   color: #243044; }
 
 textfield {

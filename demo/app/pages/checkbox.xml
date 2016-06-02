@@ -20,7 +20,7 @@
                     <stack-layout>
                         <grid-layout columns="*, 40" rows="auto" class="form-item">
                             <label text="{{ text }}" col="0" class="input-label" />
-                            <label tap="{{ toggle }}" text="{{ checked ? '&#xf14a;' : '&#xf096;' }}" col="1" class="{{ 'checkbox checkbox-' + text }}" />
+                            <label tap="{{ toggle }}" text="{{ checked ? '&#xf14a;' : '&#xf096;' }}" col="1" class="{{ 'checkbox color-' + text }}" />
                         </grid-layout>
                         <stack-layout class="hr" />
                     </stack-layout>

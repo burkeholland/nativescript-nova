@@ -29,14 +29,14 @@
                 
                 <grid-layout columns="*, 30" rows="auto" class="form-item">
                     <label text="Accent" col="0" class="input-label" />
-                    <Label id="rb2" text="{{ selected === 'rb2' ? '&#xf111;' : '&#xf1db;' }}" tap="{{ tap }}" col="1" class="radiobutton radiobutton-accent" />
+                    <Label id="rb2" text="{{ selected === 'rb2' ? '&#xf111;' : '&#xf1db;' }}" tap="{{ tap }}" col="1" class="radiobutton color-accent" />
                 </grid-layout>
                 
                 <stack-layout class="hr" />
                 
                 <grid-layout columns="*, 30" rows="auto" class="form-item">
                     <label text="Dark" col="0" class="input-label" />
-                    <Label id="rb3" text="{{ selected === 'rb3' ? '&#xf111;' : '&#xf1db;' }}" tap="{{ tap }}" col="1" class="radiobutton radiobutton-dark" />
+                    <Label id="rb3" text="{{ selected === 'rb3' ? '&#xf111;' : '&#xf1db;' }}" tap="{{ tap }}" col="1" class="radiobutton color-dark" />
                 </grid-layout>
                 
                 <stack-layout class="hr" />
