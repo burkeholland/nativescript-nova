@@ -23,7 +23,8 @@
             <label text="&#xf1de;  Sliders" tap="navigate" rel="slider" title="Sliders" />
             <label text="&#xf1de;  Progress" tap="navigate" rel="progress" title="Progress" />
             <label text="&#xf146;  Segmented Bar" tap="navigate" rel="segmented-bar" title="Segmented Bar" />
-            <label text="&#xf120;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
+            <label text="&#xf14a;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
+            <label text="&#xf111;  Radio Buttons" tap="navigate" rel="radiobuttons" title="Radio Buttons" />
         </stack-layout>
     </scroll-view>
 </grid-layout>
