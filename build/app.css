@@ -285,6 +285,50 @@ navigation-button {
   font-size: 35;
   color: #4CD964; }
 
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.radiobutton {
+  font-family: 'FontAwesome', fontawesome-webfont;
+  font-size: 35;
+  color: #4CD964; }
+
+.background-color-light {
+  background-color: #ffffff; }
+
+.background-color-accent {
+  background-color: #FF404B; }
+
+.background-color-dark {
+  background-color: #243044; }
+
+.color-light {
+  color: black; }
+
+.color-accent {
+  color: #FF404B; }
+
+.color-dark {
+  color: #243044; }
+
+.activity-indicator-light {
+  color: #4CD964; }
+
 .checkbox-accent {
   color: #FF404B; }
 

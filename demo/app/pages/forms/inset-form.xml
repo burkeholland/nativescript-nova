@@ -30,7 +30,7 @@
                 <stack-layout class="hr" />
                 
                 <stack-layout class="form-item">
-                    <label text="Comments" class="input-label" />
+                    <label text="Less Comments" class="input-label" />
                     <text-field hint="Comments" class="input" />
                 </stack-layout>
                 
